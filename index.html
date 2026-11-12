@@ -1,0 +1,31 @@
+<!doctype html>
+<!-- HTML5-страница; lang указывает язык текста. -->
+<html lang="ru">
+<head>
+  <!-- UTF-8 позволяет правильно показывать русские буквы. -->
+  <meta charset="utf-8">
+  <!-- На телефоне ширина страницы соответствует ширине экрана. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Название вкладки браузера. -->
+  <title>Теплопроводность</title>
+  <!-- Оформление встроено в HTML, отдельного CSS-файла нет. -->
+  <style>
+    /* Отступы страницы, чёрный фон, белый текст и простой шрифт. */
+    body { margin: 16px; background: black; color: white; font: 16px Arial; }
+    /* Размер заголовка. */
+    h2 { font-size: 24px; }
+    /* Серые кнопка и список металлов с белыми надписями. */
+    button, select { background: #333; color: white; border: 1px solid #777; padding: 6px; }
+    /* Серый цвет ползунка. */
+    input { accent-color: #aaa; }
+    /* Холст занимает отдельную строку; касание не прокручивает поле. */
+    canvas { display: block; touch-action: none; }
+  </style>
+  <!-- Сначала подключаем библиотеку p5.js, затем наш код. -->
+  <!-- defer откладывает выполнение до завершения чтения HTML. -->
+  <script defer src="code/p5.min.js"></script>
+  <script defer src="code/sketch.js"></script>
+</head>
+<!-- Заголовок, управление, холст и полоску создаёт функция setup в sketch.js. -->
+<body></body>
+</html>

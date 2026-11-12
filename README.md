@@ -6,12 +6,10 @@
 
 ## Запуск
 
-Откройте index.html в браузере. Интернет не нужен, библиотека p5.js находится в папке code. Отдельного CSS-файла нет.
+- [Запустить базовую версию](https://tojikhanovzikirillakhon.github.io/MTMO-25-3_HeatConduction_TOJIKHONOV_Z_X/heat-conduction-basic.html) — выбор металла, нагрев мышью и сброс.
+- [Запустить расширенную версию](https://tojikhanovzikirillakhon.github.io/MTMO-25-3_HeatConduction_TOJIKHONOV_Z_X/heat-conduction-advanced.html) — постоянный нагрев, тепловой импульс, пауза и настройка теплоотдачи.
 
-Автономные HTML-версии можно скачать и открыть в браузере без интернета.
-
-- [Базовая версия](heat-conduction-basic.html) — выбор металла, нагрев мышью и сброс.
-- [Расширенная версия](heat-conduction-advanced.html) — постоянный нагрев, тепловой импульс, пауза и настройка теплоотдачи.
+Для запуска без интернета скачайте [базовый HTML-файл](heat-conduction-basic.html) или [расширенный HTML-файл](heat-conduction-advanced.html) и откройте его в браузере. Из распакованной папки проекта также можно открыть index.html. Библиотека p5.js находится в папке code.
 
 Для p5.js Web Editor загрузите index.html, sketch.js и p5.min.js. В index.html уберите из адресов скриптов префикс code/. Код sketch.js содержит всю модель и интерфейс.
 
